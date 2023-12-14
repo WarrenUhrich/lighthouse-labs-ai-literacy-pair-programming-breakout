@@ -1,24 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+[GitHub Repository Branch](https://github.com/WarrenUhrich/lighthouse-labs-ai-literacy-pair-programming-breakout/tree/2023.12.13-web-immersive-16october2023) | [Vimeo Video Recording](https://vimeo.com/894326392/b7a4a2d5fa?share=copy)
 
-Things you may want to cover:
+To run this project...
 
-* Ruby version
+```sh
+bundle install
+rails server
+```
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+To play the "Guess the Numbers Game," visit: [http://localhost:3000/ask](http://localhost:3000/ask)
