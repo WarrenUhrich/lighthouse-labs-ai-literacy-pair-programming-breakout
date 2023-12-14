@@ -2,6 +2,12 @@
 
 [GitHub Repository Branch](https://github.com/WarrenUhrich/lighthouse-labs-ai-literacy-pair-programming-breakout/tree/2023.12.13-web-immersive-16october2023) | [Vimeo Video Recording](https://vimeo.com/894326392/b7a4a2d5fa?share=copy)
 
+Our work was done in the following files:
+* `/app/controllers/game_controller.rb`
+* `/app/views/game/ask.html.erb`
+* `/app/views/game/answer.html.erb`
+* `/config/routes.rb`
+
 To run this project...
 
 ```sh
