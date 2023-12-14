@@ -1,0 +1,26 @@
+<h1>ASK!</h1>
+
+<p>DEBUG ONLY: Random Number: <%= @rand_num %></p>
+
+<p>You have <%= @remaining_attempts %>/5 attempts left!</p>
+
+<%= form_with(url: '/answer', method: :post) do |form| %>
+    <label>Please guess the secret number!
+        <%= form.number_field :guess %>
+    </label>
+    <%= form.submit 'Guess!' %>
+<% end %>
+
+
+
+
+
+
+<!--<form method="POST" action="/answer">
+    <%= csrf_meta_tags %>
+    <label>
+        Please guess the secret number!
+        <input type="number" name="guess">
+    </label>
+    <button type="submit">Guess!</button>
+</form>-->
